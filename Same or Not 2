@@ -1,0 +1,33 @@
+Write a program to find whether the two arrays are the same or not. Two arrays are said to be the same if the elements of both the arrays is the same and the size of arrays is the same.
+Input Format
+First number represents the size of first array Second number represents the size of second array Read elements of the first array side based on First number Read elements of the second array side based on Second number
+Constraints
+1<=n<=10^7
+Output Format
+If two arrays are same, display "Same" else display "Not Same"
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main ()
+{
+    int a[5],b[5],n,m,i;
+    scanf("%d%d",&n,&m);
+    for(i=0;i<n;i++)
+    {
+     scanf("%d",&a[n]);}
+        for(i=0;i<m;i++)
+        {
+            scanf("%d",&b[m]);
+        }
+    if(a[n]==b[m]){
+        printf("Same\n");
+    }
+    else{
+        printf("Not Same\n");
+        
+    }
+    return 0;
+}
