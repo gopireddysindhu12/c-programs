@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int max_weight,num_adults,num_children;
+    int weight_adult=75;
+    int weight_child=30;
+    int total_weight;
+    scanf("%d",&max_weight);
+    scanf("%d",&num_adults);
+    scanf("%d",&num_children);
+    total_weight=(num_adults*weight_adult)+(num_children*weight_child);
+    if(total_weight<=max_weight){
+        printf("Boat is stable\n");
+    }else{
+        printf("Boat will drown\n");
+    }
+    return 0;
+    }
+
+
